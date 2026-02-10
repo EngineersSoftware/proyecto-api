@@ -43,12 +43,28 @@ button {
     cursor: pointer;
 }
 
+
 .item {
-    background: #334155;
-    padding: 10px;
-    margin-bottom: 8px;
-    border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #334155;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.btn-delete {
+    background: #ef4444; /* Rojo */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: auto; /* Para que no ocupe todo el ancho como el otro */
+}
+
+.btn-delete:hover {
+    background: #dc2626;
 }
