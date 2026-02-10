@@ -2,7 +2,7 @@ import { Router } from "express";
 import fs from "fs/promises";
 
 const router = Router();
-const DB_PATH = ".../data/database.json";
+const DB_PATH = "../data/database.json";
 
 // Helper para leer la base de datos
 const reaDB = async () => {
